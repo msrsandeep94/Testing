@@ -1,0 +1,6 @@
+,invalid,sandeep94,valid
+995911,invalid,sandeep94,valid
+9959117836,valid,,invalid
+9959111111,invalid,sandeep94,valid
+9959117836,valid,rajireddy94,invalid
+9959117836,valid,sandeep94,valid

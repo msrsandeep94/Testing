@@ -1,0 +1,6 @@
+Blank mobile number test passed
+Wrong sized mobile number test passed
+Blank password test passed
+Invalid mobile number test passed
+Invalid password test passed
+valid Login test passed
