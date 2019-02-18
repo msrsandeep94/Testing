@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="w2sms test using excel test data(failed)">
+    <classes>
+      <class name="testng.Sample5">
+        <methods>
+          <include name="dologin"/>
+          <include name="closesite"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- testng.Sample5 -->
+    </classes>
+  </test> <!-- w2sms test using excel test data(failed) -->
+</suite> <!-- Failed suite [Suite] -->

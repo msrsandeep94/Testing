@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[valid Login test passed]]>
+    </line>
+    <line>
+      <![CDATA[Blank mobile number test passed]]>
+    </line>
+    <line>
+      <![CDATA[Wrong sized mobile number test passed]]>
+    </line>
+    <line>
+      <![CDATA[Invalid mobile number test passed]]>
+    </line>
+    <line>
+      <![CDATA[Blank password test passed]]>
+    </line>
+    <line>
+      <![CDATA[Invalid password test passed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="87746" started-at="2018-12-12T16:14:08Z" finished-at="2018-12-12T16:15:36Z">
+    <groups>
+    </groups>
+    <test name="w2sms test using excel test data" duration-ms="87746" started-at="2018-12-12T16:14:08Z" finished-at="2018-12-12T16:15:36Z">
+      <class name="testng.Sample5">
+        <test-method status="PASS" signature="launch()[pri:0, instance:testng.Sample5@457e2f02]" name="launch" is-config="true" duration-ms="9719" started-at="2018-12-12T16:14:08Z" finished-at="2018-12-12T16:14:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="dologin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testng.Sample5@457e2f02]" name="dologin" duration-ms="5611" started-at="2018-12-12T16:14:18Z" data-provider="testdata" finished-at="2018-12-12T16:14:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9959117836]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sandeep94]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[valid Login test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dologin -->
+        <test-method status="PASS" signature="closesite()[pri:0, instance:testng.Sample5@457e2f02]" name="closesite" is-config="true" duration-ms="919" started-at="2018-12-12T16:14:23Z" finished-at="2018-12-12T16:14:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesite -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:testng.Sample5@457e2f02]" name="launch" is-config="true" duration-ms="8043" started-at="2018-12-12T16:14:24Z" finished-at="2018-12-12T16:14:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="dologin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testng.Sample5@457e2f02]" name="dologin" duration-ms="5540" started-at="2018-12-12T16:14:32Z" data-provider="testdata" finished-at="2018-12-12T16:14:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sandeep94]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Blank mobile number test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dologin -->
+        <test-method status="PASS" signature="closesite()[pri:0, instance:testng.Sample5@457e2f02]" name="closesite" is-config="true" duration-ms="931" started-at="2018-12-12T16:14:38Z" finished-at="2018-12-12T16:14:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesite -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:testng.Sample5@457e2f02]" name="launch" is-config="true" duration-ms="8723" started-at="2018-12-12T16:14:39Z" finished-at="2018-12-12T16:14:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="dologin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testng.Sample5@457e2f02]" name="dologin" duration-ms="5517" started-at="2018-12-12T16:14:48Z" data-provider="testdata" finished-at="2018-12-12T16:14:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9959]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sandeep94]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Wrong sized mobile number test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dologin -->
+        <test-method status="PASS" signature="closesite()[pri:0, instance:testng.Sample5@457e2f02]" name="closesite" is-config="true" duration-ms="871" started-at="2018-12-12T16:14:53Z" finished-at="2018-12-12T16:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesite -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:testng.Sample5@457e2f02]" name="launch" is-config="true" duration-ms="7496" started-at="2018-12-12T16:14:54Z" finished-at="2018-12-12T16:15:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="dologin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testng.Sample5@457e2f02]" name="dologin" duration-ms="5462" started-at="2018-12-12T16:15:02Z" data-provider="testdata" finished-at="2018-12-12T16:15:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9959111111]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sandeep94]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid mobile number test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dologin -->
+        <test-method status="PASS" signature="closesite()[pri:0, instance:testng.Sample5@457e2f02]" name="closesite" is-config="true" duration-ms="892" started-at="2018-12-12T16:15:07Z" finished-at="2018-12-12T16:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesite -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:testng.Sample5@457e2f02]" name="launch" is-config="true" duration-ms="7636" started-at="2018-12-12T16:15:08Z" finished-at="2018-12-12T16:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="dologin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testng.Sample5@457e2f02]" name="dologin" duration-ms="5459" started-at="2018-12-12T16:15:16Z" data-provider="testdata" finished-at="2018-12-12T16:15:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9959117836]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Blank password test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dologin -->
+        <test-method status="PASS" signature="closesite()[pri:0, instance:testng.Sample5@457e2f02]" name="closesite" is-config="true" duration-ms="906" started-at="2018-12-12T16:15:21Z" finished-at="2018-12-12T16:15:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesite -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:testng.Sample5@457e2f02]" name="launch" is-config="true" duration-ms="7285" started-at="2018-12-12T16:15:22Z" finished-at="2018-12-12T16:15:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="dologin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testng.Sample5@457e2f02]" name="dologin" duration-ms="5539" started-at="2018-12-12T16:15:29Z" data-provider="testdata" finished-at="2018-12-12T16:15:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9959117836]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deepu94]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid password test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dologin -->
+        <test-method status="PASS" signature="closesite()[pri:0, instance:testng.Sample5@457e2f02]" name="closesite" is-config="true" duration-ms="881" started-at="2018-12-12T16:15:35Z" finished-at="2018-12-12T16:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesite -->
+        <test-method status="PASS" signature="results()[pri:0, instance:testng.Sample5@457e2f02]" name="results" is-config="true" duration-ms="6146" started-at="2018-12-12T16:15:36Z" finished-at="2018-12-12T16:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- results -->
+      </class> <!-- testng.Sample5 -->
+    </test> <!-- w2sms test using excel test data -->
+  </suite> <!-- Suite -->
+</testng-results>

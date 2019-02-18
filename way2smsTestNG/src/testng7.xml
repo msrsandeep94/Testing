@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="w2sms test using excel test data">                 //see Sample 5
+    <classes>
+      <class name="testng.Sample5"/>
+    </classes>
+  </test> 
+</suite> 

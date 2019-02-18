@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="2">         //parallel execution of two classes via suite file
+  <test name="Test1">                                          //thread count=no of tests to be run
+    <classes>
+      <class name="testng.TestngTest1"/>
+      <class name="testng.TestngTest2"/>
+    </classes>
+  </test>
+  <test name="Test2">
+    <classes>
+      <class name="testng.TestngTest1"/>
+      <class name="testng.TestngTest2"/>
+    </classes>
+  </test>
+</suite> 

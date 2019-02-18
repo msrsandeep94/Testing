@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">            //parameterization using @Parameters annotation (Sample3 class)
+  <test name="Test1">
+  	<parameter name="mbno" value="9959117836"/>
+  	<parameter name="mbnoc" value="valid"/>
+  	<parameter name="pwd" value="sandeep94"/>
+  	<parameter name="pwdc" value="valid"/>
+    <classes>
+      <class name="testng.Sample3"/>
+    </classes>
+  </test> 
+  
+  <test name="Test2">
+  	<parameter name="mbno" value=""/>
+  	<parameter name="mbnoc" value="invalid"/>
+  	<parameter name="pwd" value="sandeep94"/>
+  	<parameter name="pwdc" value="valid"/>
+    <classes>
+      <class name="testng.Sample3"/>
+    </classes>
+  </test> 
+  
+  <test name="Test3">
+  	<parameter name="mbno" value="995911"/>
+  	<parameter name="mbnoc" value="invalid"/>
+  	<parameter name="pwd" value="sandeep94"/>
+  	<parameter name="pwdc" value="valid"/>
+    <classes>
+      <class name="testng.Sample3"/>
+    </classes>
+  </test> 
+  
+  <test name="Test4">
+  	<parameter name="mbno" value="9959111111"/>
+  	<parameter name="mbnoc" value="invalid"/>
+  	<parameter name="pwd" value="sandeep94"/>
+  	<parameter name="pwdc" value="valid"/>
+    <classes>
+      <class name="testng.Sample3"/>
+    </classes>
+  </test>
+   
+  <test name="Test5">
+  	<parameter name="mbno" value="9959117836"/>
+  	<parameter name="mbnoc" value="valid"/>
+  	<parameter name="pwd" value=""/>
+  	<parameter name="pwdc" value="invalid"/>
+    <classes>
+      <class name="testng.Sample3"/>
+    </classes>
+  </test> 
+  
+  <test name="Test6">
+  	<parameter name="mbno" value="9959117836"/>
+  	<parameter name="mbnoc" value="valid"/>
+  	<parameter name="pwd" value="san122"/>
+  	<parameter name="pwdc" value="invalid"/>
+    <classes>
+      <class name="testng.Sample3"/>
+    </classes>
+  </test> 
+</suite> 

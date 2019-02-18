@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">       //parameterization using @DataProvider annotation(Sample4 class)
+  <test name="Way2SMS Login test">
+    <classes>
+      <class name="testng.Sample4"/>
+    </classes>
+  </test> 
+</suite> 

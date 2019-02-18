@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">                //sequential execution of two classes via suite file
+  <test name="w2sms Title Test">
+    <classes>
+      <class name="testng.TestngTest1"/>
+      <class name="testng.TestngTest2"/>
+    </classes>
+  </test> 
+</suite> 
